@@ -3,14 +3,15 @@ name = "desenvolvimento-com-django"
 version = "0.1.0"
 description = ""
 authors = [
-    {name = "eric-moniz",email = "ericmoniz@outlook.com.br"}
+    {name = "eric-moniz", email = "ericmoniz@outlook.com.br"}
 ]
-requires-python = "3.12.10"
+requires-python = ">=3.12"
 dependencies = [
-    "django"
+    "django",
+    "ipython"
 ]
-
 
 [build-system]
 requires = ["poetry-core>=2.0.0,<3.0.0"]
 build-backend = "poetry.core.masonry.api"
+
